@@ -21,7 +21,7 @@ jobs:
           command: |
             . nasa/bin/activate
             python3 tests.python
-      - store_artificats:
+      - store_artifacts:
           path: test-reports/
           destination: python_app
       
